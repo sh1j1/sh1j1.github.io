@@ -288,6 +288,24 @@
   
     <article id="comments" lazyload>
       
+  <div id="gitalk-container"></div>
+  <script type="text/javascript">
+    Fluid.utils.loadComments('#gitalk-container', function() {
+      Fluid.utils.createCssLink('/css/gitalk.css')
+      Fluid.utils.createScript('https://lib.baomitu.com/gitalk/1.8.0/gitalk.min.js', function() {
+        var options = Object.assign(
+          {"clientID":"Ov23liX96O6EZKBPOLv0","clientSecret":"d99a7050cd795f325796da0476772dbfcebb1f7c","repo":"sh1j1.github.io","owner":"sh1j1","admin":["sh1j1"],"language":"zh-CN","labels":["Gitalk"],"perPage":10,"pagerDirection":"last","distractionFreeMode":false,"createIssueManually":true,"proxy":"https://cors-anywhere.azm.workers.dev/https://github.com/login/oauth/access_token"},
+          {
+            id: '38687fdbcd50268b872dd8c493f739e6'
+          }
+        )
+        var gitalk = new Gitalk(options);
+        gitalk.render('gitalk-container');
+      });
+    });
+  </script>
+  <noscript>Please enable JavaScript to view the comments</noscript>
+
 
     </article>
   
@@ -369,8 +387,9 @@
 
   
   
-</div>
+  <!--添加网站运行时间 -->
 
+</div>
   </footer>
 
   <!-- Scripts -->
