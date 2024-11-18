@@ -4,16 +4,16 @@
   
   
   <entry>
-    <title>ctfshow-pwn</title>
-    <link href="/2024/11/18/ctfshow_pwn(%E6%AD%A3%E5%9C%A8%E8%B5%B6%E6%9B%B4)/"/>
-    <url>/2024/11/18/ctfshow_pwn(%E6%AD%A3%E5%9C%A8%E8%B5%B6%E6%9B%B4)/</url>
+    <title>ctfshow_pwn在线更新</title>
+    <link href="/2024/11/18/ctfshow-pwn%E5%9C%A8%E7%BA%BF%E6%9B%B4%E6%96%B0/"/>
+    <url>/2024/11/18/ctfshow-pwn%E5%9C%A8%E7%BA%BF%E6%9B%B4%E6%96%B0/</url>
     
     <content type="html"><![CDATA[]]></content>
     
     
     <categories>
       
-      <category>CTF</category>
+      <category>CTFpwn</category>
       
     </categories>
     
@@ -21,6 +21,31 @@
     <tags>
       
       <tag>pwn学习</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>moectf_pwn</title>
+    <link href="/2024/11/18/moectf-pwn(%E6%AD%A3%E5%9C%A8%E8%B5%B6%E6%9B%B4)/"/>
+    <url>/2024/11/18/moectf-pwn(%E6%AD%A3%E5%9C%A8%E8%B5%B6%E6%9B%B4)/</url>
+    
+    <content type="html"><![CDATA[]]></content>
+    
+    
+    <categories>
+      
+      <category>CTFpwn</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>比赛复盘</tag>
       
     </tags>
     
@@ -38,32 +63,7 @@
     
     <categories>
       
-      <category>CTF</category>
-      
-    </categories>
-    
-    
-    <tags>
-      
-      <tag>比赛复盘</tag>
-      
-    </tags>
-    
-  </entry>
-  
-  
-  
-  <entry>
-    <title>moectf</title>
-    <link href="/2024/11/17/moectf_pwn(%E6%AD%A3%E5%9C%A8%E8%B5%B6%E6%9B%B4)/"/>
-    <url>/2024/11/17/moectf_pwn(%E6%AD%A3%E5%9C%A8%E8%B5%B6%E6%9B%B4)/</url>
-    
-    <content type="html"><![CDATA[<h1 id="wp1"><a href="#wp1" class="headerlink" title="wp1"></a>wp1</h1>]]></content>
-    
-    
-    <categories>
-      
-      <category>CTF</category>
+      <category>CTFpwn</category>
       
     </categories>
     
