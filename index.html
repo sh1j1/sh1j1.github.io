@@ -413,7 +413,7 @@
       
       <a class="index-excerpt " href="/2024/11/18/NewStar-pwn(%E6%AD%A3%E5%9C%A8%E8%B5%B6%E6%9B%B4)/" target="_self">
         <div>
-          Week2Bad Asm![{49CEADF7-3C41-4445-9CCB-0992565877CA}](https://sh1j1.github.io/img/moectf/Bad Asm.assets&#x2F;&#x2F;{49CEADF7-3C41-4445-9CCB-0992565877CA}.png) 逆向分析 ![{DEBB9696-7A3F-4378-8524-53ACF95D1
+          Week2BadAsm 逆向分析  尝试执行  出现栈溢出报错，分段故障 调试一下  解题思路直接shellcraft不仅会出现\x00而且会有syscall导致特判不通过  写入不含\x00的shellcode  绕过syscall\sysenter\int 0x80检查，后面两种32位使用方便(没能实操成功)  采用可见字符shellcode，利用异或运算，输入进去的可见字符异或成不可见字符构
         </div>
       </a>
 
