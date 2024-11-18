@@ -4,9 +4,59 @@
   
   
   <entry>
+    <title>ctfshow-pwn</title>
+    <link href="/2024/11/18/ctfshow_pwn(%E6%AD%A3%E5%9C%A8%E8%B5%B6%E6%9B%B4)/"/>
+    <url>/2024/11/18/ctfshow_pwn(%E6%AD%A3%E5%9C%A8%E8%B5%B6%E6%9B%B4)/</url>
+    
+    <content type="html"><![CDATA[]]></content>
+    
+    
+    <categories>
+      
+      <category>CTF</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>pwn学习</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>NewStar_pwn</title>
+    <link href="/2024/11/18/NewStar-pwn(%E6%AD%A3%E5%9C%A8%E8%B5%B6%E6%9B%B4)/"/>
+    <url>/2024/11/18/NewStar-pwn(%E6%AD%A3%E5%9C%A8%E8%B5%B6%E6%9B%B4)/</url>
+    
+    <content type="html"><![CDATA[]]></content>
+    
+    
+    <categories>
+      
+      <category>CTF</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>比赛复盘</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>moectf</title>
-    <link href="/2024/11/17/moectf/"/>
-    <url>/2024/11/17/moectf/</url>
+    <link href="/2024/11/17/moectf_pwn(%E6%AD%A3%E5%9C%A8%E8%B5%B6%E6%9B%B4)/"/>
+    <url>/2024/11/17/moectf_pwn(%E6%AD%A3%E5%9C%A8%E8%B5%B6%E6%9B%B4)/</url>
     
     <content type="html"><![CDATA[<h1 id="wp1"><a href="#wp1" class="headerlink" title="wp1"></a>wp1</h1>]]></content>
     
@@ -20,7 +70,7 @@
     
     <tags>
       
-      <tag>比赛复现</tag>
+      <tag>比赛复盘</tag>
       
     </tags>
     
