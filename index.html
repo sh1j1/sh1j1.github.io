@@ -464,23 +464,23 @@
     
     
       <div class="col-12 col-md-4 m-auto index-img">
-        <a href="/2024/11/18/NewStar-pwn(%E6%AD%A3%E5%9C%A8%E8%B5%B6%E6%9B%B4)/" target="_self">
-          <img src="/img/NewStar/2024-11-18-2.jpg" srcset="/img/loading.gif" lazyload alt="NewStar_pwn">
+        <a href="/2024/11/18/Week2-BadAsm/" target="_self">
+          <img src="/img/NewStar/2024-11-18-2.jpg" srcset="/img/loading.gif" lazyload alt="Week2_BadAsm">
         </a>
       </div>
     
     <article class="col-12 col-md-8 mx-auto index-info">
       <h2 class="index-header">
         
-        <a href="/2024/11/18/NewStar-pwn(%E6%AD%A3%E5%9C%A8%E8%B5%B6%E6%9B%B4)/" target="_self">
-          NewStar_pwn
+        <a href="/2024/11/18/Week2-BadAsm/" target="_self">
+          Week2_BadAsm
         </a>
       </h2>
 
       
-      <a class="index-excerpt " href="/2024/11/18/NewStar-pwn(%E6%AD%A3%E5%9C%A8%E8%B5%B6%E6%9B%B4)/" target="_self">
+      <a class="index-excerpt " href="/2024/11/18/Week2-BadAsm/" target="_self">
         <div>
-          Week2BadAsm 逆向分析  尝试执行  出现栈溢出报错，分段故障 调试一下  解题思路直接shellcraft不仅会出现\x00而且会有syscall导致特判不通过  写入不含\x00的shellcode  绕过syscall\sysenter\int 0x80检查，后面两种32位使用方便(没能实操成功)  采用可见字符shellcode，利用异或运算，输入进去的可见字符异或成不可见字符构
+          Week2_BadAsm 逆向分析  read写入buf，复制到dest进行执行 read遇到\x00中断 同时限制了syscall&#x2F;sysenter&#x2F;int 0x80的出现     尝试执行  出现栈溢出报错，分段故障 调试一下 exec函数除了rdi，rsi寄存器都置零了   解题思路直接shellcraft不仅会出现\x00而且会有syscall导致特判不通过  写入不含
         </div>
       </a>
 
@@ -504,7 +504,7 @@
     
       <span class="category-chain">
         
-  <a href="/categories/CTFpwn/" class="category-chain-item">CTFpwn</a>
+  <a href="/categories/NewStar/" class="category-chain-item">NewStar</a>
   
   
 
@@ -519,7 +519,7 @@
           <div class="post-meta">
             <i class="iconfont icon-tags"></i>
             
-              <a href="/tags/%E6%AF%94%E8%B5%9B%E5%A4%8D%E7%9B%98/">#比赛复盘</a>
+              <a href="/tags/%E6%AF%8F%E5%A4%A9%E4%B8%80%E9%A2%98%E7%9A%84%E6%AF%94%E8%B5%9B%E5%A4%8D%E7%9B%98/">#每天一题的比赛复盘</a>
             
           </div>
         
