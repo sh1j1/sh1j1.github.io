@@ -19,16 +19,16 @@
   <meta name="author" content="sh1j1">
   <meta name="keywords" content="">
   
-    <meta name="description" content="pwn62pwn63限制长度为0x38h 64位  设计payload 设计payload，中间使用jump跳过原来的返回地址，从而拆分shellcode  123mov rax,shell2jmp raxshell1  使用以上方法间断执行shellcode  123456789101112131415161718192021222324252627282930from pwn import *">
+    <meta name="description" content="pwn62pwn63_跳转执行限制长度为0x38h 64位  设计payload 设计payload，中间使用jump跳过原来的返回地址，从而拆分shellcode  123mov rax,shell2jmp raxshell1  使用以上方法间断执行shellcode  123456789101112131415161718192021222324252627282930from pwn imp">
 <meta property="og:type" content="article">
 <meta property="og:title" content="ctfshow_pwn62-63">
 <meta property="og:url" content="http://sh1j1.github.io/2024/11/27/ctfshow-pwn62-63/index.html">
 <meta property="og:site_name" content="sh1j1的博客">
-<meta property="og:description" content="pwn62pwn63限制长度为0x38h 64位  设计payload 设计payload，中间使用jump跳过原来的返回地址，从而拆分shellcode  123mov rax,shell2jmp raxshell1  使用以上方法间断执行shellcode  123456789101112131415161718192021222324252627282930from pwn import *">
+<meta property="og:description" content="pwn62pwn63_跳转执行限制长度为0x38h 64位  设计payload 设计payload，中间使用jump跳过原来的返回地址，从而拆分shellcode  123mov rax,shell2jmp raxshell1  使用以上方法间断执行shellcode  123456789101112131415161718192021222324252627282930from pwn imp">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="http://sh1j1.github.io/img/ctfshow/2024-11-18.jpg">
 <meta property="article:published_time" content="2024-11-26T16:48:12.000Z">
-<meta property="article:modified_time" content="2024-11-26T16:54:16.175Z">
+<meta property="article:modified_time" content="2024-11-26T16:59:38.029Z">
 <meta property="article:author" content="sh1j1">
 <meta property="article:tag" content="栈溢出">
 <meta property="article:tag" content="shellcode学习">
@@ -270,7 +270,7 @@
         <i class="iconfont icon-chart"></i>
         
           <!-- compatible with older versions-->
-           190 字
+           194 字
         
       </span>
     
@@ -333,7 +333,7 @@
               <p id="updated-time" class="note note-info" style="display: none">
                 
                   
-                    本文最后更新于 2024-11-27T00:54:16+08:00
+                    本文最后更新于 2024-11-27T00:59:38+08:00
                   
                   
 
@@ -343,7 +343,7 @@
             
               <div class="markdown-body">
                 
-                <h1 id="pwn62pwn63"><a href="#pwn62pwn63" class="headerlink" title="pwn62pwn63"></a>pwn62pwn63</h1><p>限制长度为0x38h</p>
+                <h1 id="pwn62pwn63-跳转执行"><a href="#pwn62pwn63-跳转执行" class="headerlink" title="pwn62pwn63_跳转执行"></a>pwn62pwn63_跳转执行</h1><p>限制长度为0x38h</p>
 <p><strong>64位</strong></p>
 <p><img src="https://sh1j1.github.io/img/ctfshow/%E6%A0%88%E6%BA%A2%E5%87%BA/%257B1B3FB4DF-50AF-4CC7-8109-E8ACB320CECA%257D.png" srcset="/img/loading.gif" lazyload alt="{1B3FB4DF-50AF-4CC7-8109-E8ACB320CECA}"></p>
 <p><strong>设计payload</strong></p>
